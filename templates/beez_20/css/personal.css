@@ -1,0 +1,1101 @@
+/*
+* @author ( Angie Radtke )
+
+not ready
+##########################  general  ###########################*/
+@font-face
+{
+	font-family: "Titillium Maps";
+	src: url("../fonts/TitilliumMaps29L002.eot");
+	src: local('Titillium Maps'), local('TitilliumMaps'), url("../fonts/TitilliumMaps29L002.otf") format("opentype"), url("../fonts/TitilliumMaps29L002.woff") format("woff");
+}
+BODY
+{
+	background: #E0DEDF url(../images/bg3.jpg) fixed center top;
+	color: #333;
+	font-family: arial, helvetica, sans-serif;
+}
+#all
+{
+	color: #333;
+	border: 0px solid #000000;
+	padding-top: 0px;
+	background: #FFF;
+}
+#header
+{
+	padding-top: 10em;
+}
+A:link, A:visited
+{
+	color: #095197;
+}
+A:hover, A:active, A:focus
+{
+	background: #095197;
+	color: #FFF;
+}
+INPUT:focus
+{
+	border: 2px solid #000000;
+}
+FIELDSET
+{
+	border: 0px solid #CCC;
+}
+.article-info
+{
+	color: #444;
+}
+.article-info DD SPAN
+{
+	color: #444;
+	border-right: 0px solid #000000;
+	background: #EEE;
+}
+/*##########################  back  ###########################*/
+#back
+{
+}
+/*##########################  logo  ###########################*/
+#logo SPAN
+{
+	color: #FFF;
+	padding-left: 50px;
+	font-size: 0.3em !important;
+	text-transform: none;
+	font-family: arial, sans-serif;
+}
+#all #header
+{
+	padding-top: 8em;
+	padding: 33px 0px 0px;
+}
+.logoheader
+{
+	background: #0C1A3E url(../images/personal/personal2.jpg) no-repeat bottom right;
+	color: #FFF;
+	min-height: 200px;
+	margin: 0em 10px 0 !important;
+}
+H1#logo
+{
+	font-family: "Titillium Maps", Arial;
+	padding: 0.9em 20px 20px 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 0;
+}
+#line
+{
+	width: 98%;
+	max-width: 100%;
+	top: 0px;
+	left: 0px;
+	padding: 5px 10px !important;
+	margin-right: 10px;
+	text-align: right;
+}
+/*##########################  header  ###########################*/
+#header
+{
+	background: #FFE;
+	font-size: 1em;
+	position: relative;
+	margin: 57px 0 0;
+}
+/*++++++++++++++  lists, skiplinks  ++++++++++++++*/
+#header UL.menu
+{
+/*top:62px;*/
+	top: 5em;
+	padding: 0px 0px 0px 0;
+	background: #E0E0E0 url(../images/personal/ecke.gif) repeat-x top left;
+	border: 0;
+	text-align: left;
+	left: 0px;
+	display: block;
+	margin: 0px 10px 0;
+	border-top: 1px solid #DDD;
+}
+#header UL.menu LI
+{
+	border: 0;
+	margin: 0 !important;
+}
+#header UL.menu LI A:link, #header UL.menu LI A:visited
+{
+	color: #333;
+	border: 0;
+	border-right: 1px solid #DDD;
+	margin: 0px 0 0;
+	padding: 12px 15px;
+	position: relative;
+	background: #E0E0E0 url(../images/personal/ecke.gif) repeat-x top left;
+	display: inline-block;
+}
+#header UL.menu LI A:hover, #header UL.menu LI A:active, #header UL.menu LI A:focus
+{
+	background: #0D4C89;
+	color: #FFF;
+}
+#header UL LI.active A:link, #header UL LI.active A:visited
+{
+	color: #F5F5F5;
+	background: url(../images/personal/navi_active.png);
+	text-shadow: 1px 1px 1px #000;
+}
+#header UL.skiplinks
+{
+	width: 100%;
+	text-align: left;
+	background: none;
+	z-index: 20000;
+	top: 0;
+	display: inline;
+	padding: 0;
+}
+#header UL.skiplinks LI A.u2:active, #header UL.skiplinks LI A.u2:focus
+{
+	background: #095197 !important;
+	color: #FFF !important;
+	border: 1px solid #000000;
+	top: 0 !important;
+	z-index: 10000;
+	right: auto;
+	left: 0 !important;
+	display: block;
+}
+/*++++++++++++++  fontsize  ++++++++++++++*/
+#fontsize
+{
+	display: inline;
+}
+#fontsize P A:link, #fontsize P A:visited
+{
+	color: #222;
+	border-right: 1px solid #CCC;
+}
+#fontsize P A.larger, #fontsize P A.reset, #fontsize P A.smaller
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	margin: 0;
+}
+#fontsize P A:hover, #fontsize P A:active, #fontsize P A:focus
+{
+	background: #095197 !important;
+	color: #FFF;
+}
+#fontsize H3
+{
+	color: #222;
+	font-weight: bold;
+}
+/*++++++++++++++  search  ++++++++++++++*/
+#header FORM, #header FORM .search, #header FORM .finder
+{
+	display: inline;
+	padding-right: 1px;
+}
+#header FORM .inputbox
+{
+	background: url(../images/header-bg.gif) repeat-x;
+	border: 1px solid #CCC;
+	border-bottom: 0;
+	border-right: 0;
+	padding: 5px;
+}
+#header FORM .inputbox:focus
+{
+	border: 2px solid #000;
+}
+#header FORM .button
+{
+	border: 0px solid #DDD;
+	background: #CCC url(../images/personal/button.png);
+	color: #333;
+	padding: 4px !important;
+}
+/*##########################  contentarea  ###########################*/
+#contentarea, #contentarea2
+{
+	background: #FFE;
+}
+/*##########################  breadcrumbs  ###########################*/
+#breadcrumbs
+{
+	color: #333;
+}
+#breadcrumbs SPAN
+{
+	color: #333;
+}
+#breadcrumbs SPAN A:link, #breadcrumbs SPAN A:visited
+{
+	background: #FFF;
+	color: #333;
+}
+#breadcrumbs SPAN A:hover, #breadcrumbs SPAN A:active, #breadcrumbs SPAN A:focus
+{
+	background: #095197;
+	color: #FFF;
+}
+/*##########################  navigation column  ###########################*/
+.module_content
+{
+	border: 1px solid #DDD;
+}
+.moduletable_js
+{
+	border: 0px solid #DDD;
+}
+#right .moduletable_js
+{
+	border: 0;
+}
+#nav H3
+{
+	border-bottom: 1px solid #DDD;
+	font-family: "Titillium Maps", Arial;
+	color: #555;
+}
+H3.js_heading
+{
+	border-bottom: 1px solid #DDD;
+	background: #EEE;
+	font-family: "Titillium Maps", Arial;
+}
+H3.js_heading SPAN.backh
+{
+	border: 0px solid #000;
+}
+H3.js_heading SPAN.backh1
+{
+}
+H3.js_heading A
+{
+	border: 0;
+}
+H3.js_heading A IMG
+{
+	border: 0;
+}
+H3.js_heading A.opencloselink:hover, H3.js_heading A.opencloselink:active, H3.js_heading A.opencloselink:focus
+{
+	background: none;
+}
+#right H3 SPAN.backh
+{
+}
+#right H3 SPAN.backh2
+{
+	background: #FFF;
+	color: #555;
+	border-bottom: 1px solid #DDD;
+}
+#right H3 SPAN.backh3
+{
+	padding-left: 0;
+}
+H3.js_heading A:link, H3.js_heading A:visited, H3.js_heading A:hover, H3.js_heading A:active, H3.js_heading A:focus
+{
+}
+#nav H3.js_heading A:focus
+{
+}
+#nav FORM
+{
+	color: #000;
+}
+#nav FORM A:hover, #nav FORM A:active, #nav FORM A:focus
+{
+	color: #FFF;
+	background: #095197;
+	text-decoration: none;
+}
+/*++++++++++++++  first level  ++++++++++++++*/
+#nav .moduletable-example UL.menu
+{
+	background: #FFF;
+	border: 0;
+}
+UL.menu
+{
+	border: 0;
+	background: #FFE;
+	border: 0px solid #EEE;
+}
+.module_content UL.menu
+{
+	border: 0;
+}
+UL.menu LI
+{
+	border-bottom: 1px solid #DDD;
+}
+UL.menu LI A:link, UL.menu LI A:visited
+{
+	color: #444;
+	background: url(../images/nature/karo.gif) no-repeat 5px 12px;
+}
+UL.menu LI.active A:link, UL.menu LI.active A:visited
+{
+	color: #333;
+}
+UL.menu LI A:hover, UL.menu LI A:active, UL.menu LI A:focus, UL.menu LI.active A:hover, UL.menu LI.active A:active, UL.menu LI.active A:focus
+{
+	background: #FFF url(../images/nav_level_1.gif) repeat-x;
+	color: #095197;
+}
+/*++++++++++++++  second level  ++++++++++++++*/
+UL.menu LI UL
+{
+	border: 0px solid #EEE;
+}
+UL.menu LI UL LI
+{
+	border: 0px solid #000;
+	background: #FFF;
+}
+UL.menu LI.active UL LI A:link, UL.menu LI.active UL LI A:visited
+{
+	color: #444;
+	border: 0;
+	border-bottom: 1px solid #FFF;
+	background: #E8E8E8;
+}
+UL.menu LI.active UL LI.active A:link, UL.menu LI.active UL LI.active A:visited
+{
+	border: 0;
+	color: #333;
+	border-bottom: 1px solid #FFF;
+}
+UL.menu LI.active UL LI A:hover, UL.menu LI.active UL LI A:active, UL.menu LI.active UL LI A:focus
+{
+	background: #666 !important;
+	color: #FFF !important;
+}
+/*++++++++++++++  third level  ++++++++++++++*/
+UL.menu LI UL LI UL
+{
+	border: 0 !important;
+	background: #F5F5F5 !important;
+	padding-bottom: 0;
+}
+UL.menu LI.active UL LI.active UL LI A:link, UL.menu LI.active UL LI.active UL LI A:visited
+{
+	background: #F5F5F5;
+	border-bottom: 1px solid #FFF;
+	color: #444;
+}
+UL.menu LI.active UL LI.active UL LI.active A:link, UL.menu LI.active UL LI.active UL LI.active A:visited
+{
+	color: #333;
+}
+/*++++++++++++++  fourth level  ++++++++++++++*/
+UL.menu LI UL LI UL LI UL
+{
+	border: 1px solid #EEE !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	background: #FFF url(../images/nature/level4.png) repeat-x !important;
+}
+UL.menu LI.active UL LI.active UL LI.active UL LI A:link, UL.menu LI.active UL LI.active UL LI.active UL LI A:visited
+{
+	font-weight: normal;
+	padding: 3px 2px 3px 40px;
+	font-size: 0.9em;
+	background: #FFF url(../images/nature/arrow_small.png) no-repeat 30px 5px;
+	color: #444;
+}
+UL.menu LI.active UL LI.active UL LI.active UL LI.active A:link, UL.menu LI.active UL LI.active UL LI.active UL LI.active A:visited
+{
+	font-weight: bold;
+	color: #333;
+}
+/*++++++++++++++  fifth level  ++++++++++++++*/
+UL.menu LI UL LI UL LI UL LI UL
+{
+	border: 0px solid #EEE !important;
+	padding-top: 5px !important;
+	padding-bottom: 10px !important;
+	background: #FFF !important;
+}
+UL.menu LI.active UL LI.active UL LI.active UL LI.active UL LI A:link, UL.menu LI.active UL LI.active UL LI.active UL LI.active UL LI A:visited
+{
+	font-weight: normal;
+	padding: 3px 2px 3px 5px;
+	font-size: 0.9em;
+	background: #FFF;
+	color: #444;
+	margin: 0 10px 0 35px;
+	border-bottom: 1px solid #DDD;
+}
+UL.menu LI.active UL LI.active UL LI.active UL LI.active UL LI.active A:link, UL.menu LI.active UL LI.active UL LI.active UL LI.active UL LI.active A:visited
+{
+	font-weight: bold;
+	color: #333;
+}
+/*##########################  content - main   ###########################*/
+#main
+{
+}
+#main A:link, #main A:visited
+{
+}
+#main A:hover, #main A:active, #main A:focus
+{
+	background: #095197;
+	color: #FFF;
+}
+#main TH A:hover, #main TH A:active, #main TH A:focus
+{
+	background: #333;
+	color: #FFF;
+}
+.items-row
+{
+	background: #FFF;
+}
+.items-row H2
+{
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	color: #555;
+}
+.column-1, .column-2
+{
+	border: 0px solid #000000;
+}
+.item-separator
+{
+	border: 0px solid #333333;
+}
+#main UL LI
+{
+}
+.small
+{
+	border: 0 solid #000000;
+}
+UL#archive-items LI.row0, UL#archive-items LI.row1
+{
+	border-bottom: 1px solid #DDD;
+}
+.archive #adminForm FIELDSET
+{
+	border: 0;
+	padding: 0;
+	margin: 20px 0;
+}
+/*++++++++++++++  images  ++++++++++++++*/
+.image-left
+{
+	padding: 2px;
+}
+.image-right
+{
+	border: 1px solid #DDD;
+	padding: 2px;
+}
+/*++++++++++++++  leading  ++++++++++++++*/
+.items-leading
+{
+}
+/*++++++++++++++++++++ headings +++++++++++++*/
+#main H1
+{
+	color: #0D4C89;
+	border-bottom: 1px solid #DDD;
+	font-family: "Titillium Maps", Arial;
+}
+#main .blog H1, #main .blog-featured H1
+{
+	color: #0D4C89;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	font-family: "Titillium Maps", Arial;
+	margin-top: -1px !important;
+}
+/*h1 on frontpage*/
+.items-row H2
+{
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+.items-leading H2, #main H3, #main H4
+{
+	color: #555;
+}
+#main H2
+{
+	color: #555;
+	font-family: "Titillium Maps", Arial;
+}
+#main H2 A
+{
+	color: #095197;
+}
+/*++++++++++++++  readmore  ++++++++++++++*/
+.readmore A:link, .readmore A:visited, A.readmore:link, A.readmore:visited
+{
+	color: #095197;
+	background: #EEE url(../images/nature/arrow1.gif) no-repeat left top;
+	border: 1px solid #DDD;
+}
+.readmore A:hover, .readmore A:active, .readmore A:focus, A.readmore A:hover, A.readmore A:active, A.readmore A:focus
+{
+	background: #555 url(../images/nature/arrow2.gif) no-repeat left 6px !important;
+	color: #FFF;
+}
+A.readmore:hover, A.readmore:active, A.readmore:focus
+{
+	background: #555;
+	color: #FFF;
+}
+/*++++++++++++++  icons  ++++++++++++++*/
+.actions IMG
+{
+	border: 0;
+}
+/*++++++++++++++  items-more  ++++++++++++++*/
+#main .items-more H3
+{
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	color: #444;
+}
+#main .items-more OL
+{
+	color: #000;
+}
+#main .items-more OL LI A
+{
+	background: #FFFFFF url(../images/blog_more.gif) no-repeat 0px center;
+	color: #095197;
+}
+#main .items-more OL LI A:hover, #main .items-more OL LI A:active, #main .items-more OL LI A:focus
+{
+	background: #095197 url(../images/blog_more_hover.gif) no-repeat 0px center;
+	color: #FFF;
+}
+/*++++++++++++++  pagination  ++++++++++++++*/
+#main .pagination
+{
+	border-top: 1px solid #DDD;
+	clear: both;
+}
+/*++++++++++++++  article index  ++++++++++++++*/
+TABLE.contenttoc
+{
+	border: 1px solid #CCC;
+}
+/*##########################  right column   ###########################*/
+#right
+{
+	border: 0px solid #E6E6E6;
+	background: #FFF;
+}
+#right H3
+{
+}
+#right H4
+{
+	color: #555;
+	border: 0 solid #000000;
+}
+#right UL LI A:hover, #right UL LI A:active, #right UL LI A:focus
+{
+	background: #095197;
+	color: #FFF;
+}
+/*++++++++++++++  button for closing right column  ++++++++++++++*/
+#close SPAN
+{
+	color: #000;
+}
+/*##########################  modules  ###########################
+++++++++++++++  mostread, latest news ++++++++++++++*/
+.mostread LI A:link, .mostread LI A:visited, .latestnews LI A:link, .latestnews LI A:visited
+{
+	background: url(../images/personal/arrow2_grey.png) no-repeat 2px 7px;
+}
+.mostread LI A:hover, .latestnews LI A:hover, .mostread LI A:active, .latestnews LI A:active, .mostread LI A:focus, .latestnews LI A:focus
+{
+	background: #555 url(../images/arrow_white_grey.png) no-repeat 2px 7px !important;
+}
+/*++++++++++++++  newsfeed  ++++++++++++++*/
+UL.newsfeed
+{
+	border: 0px solid #000;
+}
+.newsfeed-item
+{
+	border-bottom: 1px solid #DDD;
+}
+.newsfeed-item H5 A
+{
+}
+/*++++++++++++++  newsflash  ++++++++++++++
+newsflash horizontal*/
+UL.newsflash-horiz
+{
+	background: #F5F5F5 url(../images/nature/box.png) repeat-x;
+	border: 1px solid #EEEEEE;
+}
+UL.newsflash-horiz LI
+{
+	border: 0px solid #EEE;
+	background: #F5F5F5;
+}
+UL.newsflash-horiz LI H4
+{
+	font-family: "Titillium Maps", Arial;
+}
+/*newsflash vertical*/
+.newsflash-vert
+{
+}
+/*++++++++++++++  banner  ++++++++++++++*/
+.banneritem
+{
+	border: 0;
+}
+.banneritem A
+{
+	background: none;
+}
+.banneritem A IMG
+{
+	background: none;
+	border: 0;
+}
+/*++++++++++++++  login  ++++++++++++++*/
+#login-form .inputbox
+{
+	border: 1px solid #DDD;
+	background: url(../images/content_bg.gif) repeat-x;
+}
+FIELDSET.input
+{
+	border: 0;
+}
+INPUT.button, BUTTON.button, BUTTON.validate
+{
+	background: #FFFFFF url(../images/nature/arrow1.gif) no-repeat left top;
+	border: 1px solid #DDDDDD;
+	color: #444444;
+}
+/*++++++++++++++  tabs/ slide  ++++++++++++++*/
+UL.tabs
+{
+	border: 1px solid #DDD;
+	border-bottom: 0;
+	background: #F5F5F5 url(../images/nature/box.png) repeat-x;
+}
+UL.tabs LI
+{
+	background: #F5F5F5 url(../images/nature/box.png) repeat-x;
+	border-right: 1px solid #DDD;
+}
+UL.tabs LI A:link, UL.tabs LI A:visited
+{
+	color: #333;
+}
+UL.tabs LI A:hover, UL.tabs LI A:active, UL.tabs LI A:focus
+{
+	color: #000;
+}
+.tabcontent
+{
+	border: 1px solid #DDD;
+	background: #FFF;
+	color: #000;
+}
+.tabcontent .linkclosed
+{
+	color: #000;
+	border-bottom: 1px solid #E5E5E5;
+}
+UL.tabs LI A.linkopen
+{
+	background: #FFF;
+	color: #333;
+	border: 0;
+}
+UL.tabs LI A.linkclosed:hover, UL.tabs LI A.linkclosed:active, UL.tabs LI A.linkclosed:focus, UL.tabs LI A.linkopen:hover, UL.tabs LI A.linkopen:active, UL.tabs LI A.linkopen:focus
+{
+	background: #555;
+	color: #FFF;
+}
+/*++++++++++++++  category-module  ++++++++++++++*/
+#right .category-module H4 A:link, #right .category-module H4 A:visited
+{
+	color: #0D4C89;
+}
+#right .category-module H4 A:hover, #right .category-module H4 A:active, #right .category-module H4 A:focus
+{
+	color: #FFF;
+}
+.category-module LI
+{
+	border-bottom: 1px solid #DDD;
+}
+.category-module LI LI
+{
+	border: 0;
+}
+/*##########################  search   ###########################*/
+.searchintro IMG
+{
+	border: 0px solid #000000;
+}
+.inputbox:focus
+{
+	border: 2px solid #000;
+}
+.word
+{
+	background: #FFF;
+	border: 0px solid #CCC;
+}
+.word INPUT
+{
+	border: 1px solid #DDD;
+	background: url(../images/content_bg.gif) repeat-x;
+	color: #333;
+}
+.only
+{
+	border: 1px solid #CCC;
+}
+.phrases
+{
+	color: #000;
+	border: 1px solid #CCC;
+}
+/*++++++++++++++  selects  ++++++++++++++*/
+.phrases .inputbox
+{
+	background: #FFF;
+	color: #000;
+}
+.phrases .inputbox OPTION
+{
+	background: #F5F5F5;
+	border-bottom: 1px solid #CCC;
+}
+.phrases .inputbox OPTION A:hover
+{
+	background: #C00;
+	border-color: #CFD0D6;
+	color: #FFF;
+}
+/*++++++++++++++   search results    ++++++++++++++++++*/
+DL.search-results
+{
+	background: #F5F5F5;
+}
+DL.search-results DT.result-title
+{
+	border-top: 1px dotted #DDD;
+}
+DL.search-results DD.result-url
+{
+	border-bottom: 5px solid #FFF;
+	color: #115599;
+}
+DL.search-results DD.result-created
+{
+	border-bottom: 5px solid #FFF;
+}
+/*##########################  forms   ###########################
+++++++++++++++  form validation  ++++++++++++++*/
+.invalid
+{
+	border-color: #FF0000 !important;
+}
+LABEL.invalid
+{
+	color: #FF0000;
+}
+/*##########################  user profile  ###########################*/
+#users-profile-core, #users-profile-custom
+{
+	border: 1px solid #CCC;
+}
+#member-profile FIELDSET
+{
+	border: 1px solid #CCC;
+}
+/*##########################  tables   ###########################*/
+TABLE
+{
+}
+TBODY
+{
+}
+TR.odd, .cat-list-row1
+{
+	background: url(../images/news.gif) repeat-x;
+}
+TABLE.newsfeeds TD, TABLE.weblinks TD
+{
+}
+TABLE.weblinks TH, TABLE.newsfeeds TH, TABLE.category TH, TABLE.jlist-table TH
+{
+	background: #444;
+}
+TABLE.weblinks TH A, TABLE.newsfeeds TH A, TABLE.category TH A, TABLE.jlist-table TH A, TABLE.weblinks TH, TABLE.newsfeeds TH, TABLE.category TH, TABLE.jlist-table TH
+{
+	color: #FFF;
+}
+TD.table_footer
+{
+	background: #DDD url(../images/table_footer.gif) repeat-x bottom left;
+}
+TD.counter
+{
+}
+TD.num, TD.hits
+{
+}
+TD P
+{
+}
+TABLE.category TH A IMG
+{
+	border: 0px solid #000000;
+}
+/*for opera*/
+TR, TD
+{
+	border: 1px solid #DDD;
+}
+#main TABLE.moduletable TD, #main TABLE.moduletable TR
+{
+	border: 0;
+}
+FIELDSET.filters
+{
+	border: 0px solid #DDD;
+}
+/*##########################  contacts   ###########################*/
+.contact FORM
+{
+	background: #FFF;
+	color: #000;
+}
+.contact INPUT
+{
+	background: #FFF;
+	color: #000;
+}
+.contact .button
+{
+}
+.contact INPUT.invalid, .contact TEXTAREA.invalid
+{
+	border: 2px solid #FF0000;
+}
+.contact LABEL.invalid
+{
+	color: #FF0000;
+}
+/*++++++++++++++  Error Message contact form  ++++++++++++++*/
+P.error
+{
+	color: #044B63;
+	background: #EEE;
+	border-top: 3px solid #044B63;
+	border-bottom: 3px solid #044B63;
+}
+BODY.contentpane
+{
+	background: #FFF;
+}
+/*##########################  footer   ###########################*/
+#footer
+{
+/*background:url(../images/footer_bg.gif) repeat-x;*/
+	background: #333333 url(../images/personal/tabs_back.png) repeat-x;
+	color: #FFF;
+	border-top: 0px solid #CCC;
+}
+#footer-inner
+{
+	background: #F5F5F5 url(../images/personal/footer.jpg) repeat-x left bottom;
+	border-top: 1px solid #DDD;
+}
+#footer A
+{
+	color: #FFF;
+}
+#bottom A IMG
+{
+	border: 0;
+}
+.box H3
+{
+	font-family: "Titillium Maps", Arial;
+	font-size: 1.2em;
+}
+.box UL
+{
+	padding-left: 0;
+}
+.box1
+{
+	border-right: 1px solid #CCC;
+}
+.box3
+{
+	border-left: 1px solid #CCC;
+}
+#bottom UL LI A
+{
+	background-image: none;
+	padding-left: 0;
+}
+/*##########################  editor  ###########################*/
+.contentpaneopen_edit IMG
+{
+	border: 0;
+}
+FORM.editor FIELDSET
+{
+	border: 1px solid #CCC;
+}
+/*++++++++++++++  edit  ++++++++++++++*/
+FORM#adminForm
+{
+	border: 0px solid #000;
+}
+.edit FORM#adminForm FIELDSET
+{
+	border: 1px solid #DDD;
+}
+.edit FORM#adminForm LEGEND
+{
+	font-weight: bold;
+}
+/*++++++++++++++  tooltip  ++++++++++++++*/
+.tip
+{
+	border: 1px solid #333;
+	background: #FFFFCC;
+}
+/*-------------------------------*/
+TABLE.pagenav, TABLE.pagenav TR, TABLE.pagenav TD
+{
+	border: 0 !important;
+}
+.cat-children UL UL, .categories-list UL UL
+{
+	list-style-type: none;
+}
+.cat-children UL UL UL, .categories-list UL UL UL
+{
+}
+.categories-list .category-desc UL LI
+{
+	list-style-type: square;
+}
+/*contact  plain*/
+#main .contact H3
+{
+	border-bottom: 1px solid #DDD;
+	margin: 20px 0;
+}
+.form-required
+{
+	font-weight: bold;
+	margin: 10px 0;
+	background: #FFF url(../images/req.png) no-repeat;
+	padding: 10px 40px;
+}
+.contact .inputbox, .registration INPUT, .profile-edit INPUT, .login-fields INPUT, .remind INPUT, .reset INPUT
+{
+	background: #FFF url(../images/content_bg.gif) repeat-x;
+	border: 1px solid #CCC;
+	padding: 3px;
+}
+.profile-edit SELECT
+{
+	padding: 0px;
+	border: 1px solid #CCC;
+	background: #F5F5F5;
+}
+.profile-edit SELECT OPTION
+{
+	padding: 3px;
+}
+/*contact  slider*/
+.panel
+{
+	border: 1px solid #DDD;
+	margin-top: -1px;
+}
+#main .contact .panel H3
+{
+	margin: 0px 0;
+	padding: 0;
+	background: #EEE;
+	border: 0;
+}
+.panel H3 A
+{
+	display: block;
+	padding: 6px;
+	text-decoration: none;
+	color: #444;
+	padding: 6px;
+}
+.panel H3.pane-toggler A
+{
+	background: #F5F5F5 url(../images/slider_plus.png) no-repeat right top;
+}
+.panel H3.pane-toggler-down A
+{
+	background: #F5F5F5 url(../images/slider_minus.png) no-repeat right top;
+	border-bottom: 1px solid #DDD;
+}
+.pane-slider
+{
+	border: 0px solid #000000;
+	padding: 0px 10px !important;
+	margin: 0;
+	background: url(../images/nav_level_1.gif) repeat-x;
+}
+.panel .contact-form, .panel .contact-miscinfo
+{
+	padding: 10px;
+}
+.contact .panel .contact-form FORM, .contact .panel .contact-address
+{
+	margin: 20px 0 0;
+}
+/*tabs*/
+DIV.current
+{
+	background: url(../images/nav_level_1.gif) repeat-x;
+}
+/*image upload modal*/
+#all #upload-flash UL LI A:hover, #all .item A:hover SPAN
+{
+	background: #095197;
+	color: #FFF;
+}
+#close A
+{
+	text-decoration: none;
+}
+/*########################## sample module styling  ###########################*/
+DIV.sample-module
+{
+	border: 2px dashed #DDD;
+	padding: 10px;
+	background-color: #F5F5F5;
+}
