@@ -15,3 +15,4 @@ Disallow: /plugins/
 Disallow: /templates/
 Disallow: /tmp/
 Disallow: /component/users/?view=reset
+Host: potolki-komfort.ru
